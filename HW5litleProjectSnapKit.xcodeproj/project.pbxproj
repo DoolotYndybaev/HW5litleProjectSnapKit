@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B935EA6527842AA400091B90 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B935EA6427842AA400091B90 /* Calculator.swift */; };
 		B99F0CD52778B73700BFBF78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99F0CD42778B73700BFBF78 /* AppDelegate.swift */; };
 		B99F0CD72778B73700BFBF78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99F0CD62778B73700BFBF78 /* SceneDelegate.swift */; };
 		B99F0CD92778B73700BFBF78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99F0CD82778B73700BFBF78 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		5A2E211645660EE9A03C6758 /* Pods_HW5litleProjectSnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HW5litleProjectSnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BEA2C1549F0A822A95A44F2 /* Pods-HW5litleProjectSnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW5litleProjectSnapKit.debug.xcconfig"; path = "Target Support Files/Pods-HW5litleProjectSnapKit/Pods-HW5litleProjectSnapKit.debug.xcconfig"; sourceTree = "<group>"; };
+		B935EA6427842AA400091B90 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		B99F0CD12778B73700BFBF78 /* HW5litleProjectSnapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW5litleProjectSnapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99F0CD42778B73700BFBF78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B99F0CD62778B73700BFBF78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				B9A266842778CB59005DA80E /* JoyStick.swift */,
 				B9A6D0002778CF3C001BBFC4 /* ChessBoard.swift */,
 				B9A6D0022778CF89001BBFC4 /* 5Flags.swift */,
+				B935EA6427842AA400091B90 /* Calculator.swift */,
 				B99F0CDA2778B73700BFBF78 /* Main.storyboard */,
 				B99F0CDD2778B73A00BFBF78 /* Assets.xcassets */,
 				B99F0CDF2778B73A00BFBF78 /* LaunchScreen.storyboard */,
@@ -226,6 +229,7 @@
 				B99F0CD52778B73700BFBF78 /* AppDelegate.swift in Sources */,
 				B9A266812778C12B005DA80E /* incaFlag.swift in Sources */,
 				B9A266832778CA32005DA80E /* incaFlags.swift in Sources */,
+				B935EA6527842AA400091B90 /* Calculator.swift in Sources */,
 				B9A6D0012778CF3C001BBFC4 /* ChessBoard.swift in Sources */,
 				B99F0CD72778B73700BFBF78 /* SceneDelegate.swift in Sources */,
 				B9A266852778CB59005DA80E /* JoyStick.swift in Sources */,

@@ -14,6 +14,7 @@ class ViewController: UIViewController {
        var joyStickButton = UIButton(type: .system)
        var chessButton = UIButton(type: .system)
        var flagsButon = UIButton(type: .system)
+       var calculButton = UIButton(type: .system)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,7 +60,7 @@ class ViewController: UIViewController {
         joyStickButton.layer.cornerRadius = 20
         joyStickButton.backgroundColor = UIColor(red: 84/255, green: 118/255, blue: 171/255, alpha: 1)
         joyStickButton.setTitleColor(.white, for: .normal)
-        joyStickButton.setTitle("JoyStick", for: .normal)
+        joyStickButton.setTitle("Joy Stick", for: .normal)
         joyStickButton.addTarget(nil, action: #selector(VCChanger), for: .touchUpInside)
         view.addSubview(joyStickButton)
         joyStickButton.snp.makeConstraints{ make in
@@ -94,6 +95,19 @@ class ViewController: UIViewController {
             make.height.equalTo(40)
             
         }
+        calculButton.layer.cornerRadius = 20
+        calculButton.backgroundColor = UIColor(red: 84/255, green: 118/255, blue: 171/255, alpha: 1)
+        calculButton.setTitleColor(.white, for: .normal)
+        calculButton.setTitle("Calculator", for: .normal)
+        calculButton.addTarget(nil, action: #selector(VCChanger), for: .touchUpInside)
+        view.addSubview(calculButton)
+        calculButton.snp.makeConstraints{ make in
+            make.left.equalToSuperview().inset(50)
+            make.top.equalToSuperview().inset(480)
+            make.width.equalTo(150)
+            make.height.equalTo(40)
+            
+        }
     }
 
     
@@ -102,12 +116,14 @@ class ViewController: UIViewController {
                navigationController?.pushViewController(ViewController1(), animated: true)
            }else if sender.titleLabel?.text == "Inca Flags"{
                navigationController?.pushViewController(ViewController2(), animated: true)
-           }else if sender.titleLabel?.text == "JoyStick"{
+           }else if sender.titleLabel?.text == "Joy Stick"{
                navigationController?.pushViewController(ViewController3(), animated: true)
            }else if sender.titleLabel?.text == "Chess Board"{
                navigationController?.pushViewController(ViewController4(), animated: true)
            }else if sender.titleLabel?.text == "5 Flags"{
                navigationController?.pushViewController(ViewController5(), animated: true)
+           }else if sender.titleLabel?.text == "Calculator"{
+               navigationController?.pushViewController(ViewController6(), animated: true)
            }
        }
 }
